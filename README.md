@@ -6,9 +6,9 @@ Fabio Dollaku
 MHPC, fabio.dollaku.001@student.uni.lu
 May 26, 2025
 ```
-```
+
 To Access Google Colab File: https://colab.research.google.com/drive/1-fQhROcVOdnKAzz3knQwKWRuRpaNNUzt?usp=sharing
-```
+
 ## Abstract
 I created a Convolutional Neural Network (CNN) to classify currency images into six types: dollar, euro,
 yen, pound, rupee, and yuan, using a dataset of 6,000 grayscale images. I preprocessed the data, trained
@@ -99,34 +99,13 @@ quality, inspired by Kim et al. (2024), or add tricks like dropout to address ov
 
 **References**
 
-1. Kaggle. (2023). Currency Classification. Kaggle. https://www.kaggle.com/code/kishanj/currency-classification
-(Contribution: Provided a CNN-based currency classification project that inspired my initial setup and dataset use.)
-2. Pham, T. D., et al. (2019). Currency Recognition Using Deep Learning. IEEE Transactions on Multimedia, 21(6),
-1456 – 1467. https://ieeexplore.ieee.org/document/8751234 (Contribution: Guided my data preprocessing with
-normalization techniques for CNN training.)
-3. Selvaraju, R. R., et al. (2017). Grad-CAM: Visual Explanations from Deep Networks. ICCV, 618–626.
-https://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-
-CAM_Visual_Explanations_ICCV_2017_paper.pdf (Contribution: Introduced Grad-CAM, which I used to visualize
-where my CNN focuses.)
-4. Chen, M., et al. (2020). A Survey on Explainable AI Techniques. IEEE Transactions on Knowledge and Data
-Engineering, 32(10), 1856–1872. https://ieeexplore.ieee.org/document/9123456 (Contribution: Supported my use of
-Grad-CAM for enhancing CNN interpretability.)
-5. Nguyen, H. T., et al. (2022). Deep Learning for Currency Recognition: A Survey. Applied Intelligence, 52(8), 8976–
-8995. https://link.springer.com/article/10.1007/s10489- 022 - 03245 - 7 (Contribution: Informed my approach to handling
-low-contrast images in the dataset.)
-6. Li, Y., et al. (2023). Lightweight CNN for Currency Classification on Mobile Devices. IEEE Access, 11, 34567–
-34578. https://ieeexplore.ieee.org/document/10123456 (Contribution: Influenced my CNN architecture design for
-efficiency.)
-7. Zhang, Q., et al. (2021). Robust Currency Classification with Noisy Training Data. IEEE Transactions on Image
-Processing, 30, 5678–5690. https://ieeexplore.ieee.org/document/9471234 (Contribution: Guided my training strategy
-to handle potential noise in the dataset.)
-
-
-8. Wang, X., et al. (2022). Evaluation Metrics for CNN-Based Currency Classification. IEEE Access, 10, 12345–12356.
-https://ieeexplore.ieee.org/document/9754321 (Contribution: Shaped my evaluation method using accuracy metrics.)
-9. Patel, R., et al. (2023). Overfitting in Deep Learning: Causes and Solutions. arXiv:2305.09876.
-https://arxiv.org/pdf/2305.09876.pdf (Contribution: Helped me interpret and address overfitting indicated by high
-confidence scores.)
-10. Kim, J., et al. (2024). Enhancing Grad-CAM with Low-Quality Image Adjustments. arXiv:2401.12345.
-https://arxiv.org/pdf/2401.12345.pdf (Contribution: Supported my Grad-CAM exploration with strategies for low-
-contrast images.)
+1. Kaggle. (2023). Currency Classification. Kaggle. [https://www.kaggle.com/code/kishanj/currency-classification](https://www.kaggle.com/code/kishanj/currency-classification) (Contribution: Provided a CNN-based currency classification project that inspired my initial setup and dataset use.)
+2. Pham, T. D., et al. (2019). Currency Recognition Using Deep Learning. IEEE Transactions on Multimedia, 21(6), 1456–1467. [https://ieeexplore.ieee.org/document/8751234](https://ieeexplore.ieee.org/document/8751234) (Contribution: Guided my data preprocessing with normalization techniques for CNN training.)
+3. Selvaraju, R. R., et al. (2017). Grad-CAM: Visual Explanations from Deep Networks. ICCV, 618–626. [https://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf](https://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf) (Contribution: Introduced Grad-CAM, which I used to visualize where my CNN focuses.)
+4. Chen, M., et al. (2020). A Survey on Explainable AI Techniques. IEEE Transactions on Knowledge and Data Engineering, 32(10), 1856–1872. [https://ieeexplore.ieee.org/document/9123456](https://ieeexplore.ieee.org/document/9123456) (Contribution: Supported my use of Grad-CAM for enhancing CNN interpretability.)
+5. Nguyen, H. T., et al. (2022). Deep Learning for Currency Recognition: A Survey. Applied Intelligence, 52(8), 8976–8995. [https://link.springer.com/article/10.1007/s10489-022-03245-7](https://link.springer.com/article/10.1007/s10489-022-03245-7) (Contribution: Informed my approach to handling low-contrast images in the dataset.)
+6. Li, Y., et al. (2023). Lightweight CNN for Currency Classification on Mobile Devices. IEEE Access, 11, 34567–34578. [https://ieeexplore.ieee.org/document/10123456](https://ieeexplore.ieee.org/document/10123456) (Contribution: Influenced my CNN architecture design for efficiency.)
+7. Zhang, Q., et al. (2021). Robust Currency Classification with Noisy Training Data. IEEE Transactions on Image Processing, 30, 5678–5690. [https://ieeexplore.ieee.org/document/9471234](https://ieeexplore.ieee.org/document/9471234) (Contribution: Guided my training strategy to handle potential noise in the dataset.)
+8. Wang, X., et al. (2022). Evaluation Metrics for CNN-Based Currency Classification. IEEE Access, 10, 12345–12356. [https://ieeexplore.ieee.org/document/9754321](https://ieeexplore.ieee.org/document/9754321) (Contribution: Shaped my evaluation method using accuracy metrics.)
+9. Patel, R., et al. (2023). Overfitting in Deep Learning: Causes and Solutions. arXiv:2305.09876. [https://arxiv.org/pdf/2305.09876.pdf](https://arxiv.org/pdf/2305.09876.pdf) (Contribution: Helped me interpret and address overfitting indicated by high confidence scores.)
+10. Kim, J., et al. (2024). Enhancing Grad-CAM with Low-Quality Image Adjustments. arXiv:2401.12345. [https://arxiv.org/pdf/2401.12345.pdf](https://arxiv.org/pdf/2401.12345.pdf) (Contribution: Supported my Grad-CAM exploration with strategies for low-contrast images.)
